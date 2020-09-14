@@ -28,7 +28,7 @@
                 <a href="#welcome-section"><li>Home</li></a>
                 <a href="#about"><li>About Us</li></a>
                 <a href="#contact"><li>Contact Us</li></a>
-                <a target="_blank" href="https://drive.google.com/open?id=1jTUFEUfX1MnimQfseMGgk75IxKNmPBPS"><li>Online Appointment</li></a>
+                <a target="_blank" href="https://form.jotform.com/202565658762465"><li>Online Appointment</li></a>
             </div>
         </nav>
      <script>
