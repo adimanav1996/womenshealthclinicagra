@@ -1,0 +1,199 @@
+body{
+    overflow-x: hidden;
+ 
+}
+.front{
+    background-image: url('Hospital.jpeg');
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-clip: content-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.headline{
+    font-weight: bold;
+    color: black;
+    font-size: 2.2em;
+}
+.image{
+    margin: auto;
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+}
+.block{
+    margin: auto;
+    padding: 16px 20px;
+    
+   }
+.block span{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.block span i{
+    display: block;
+    color: skyblue;
+    text-align: center;
+    font-size: 3em;
+}
+.well span{
+    width: auto;
+
+    
+}
+.header button{
+    background-color: transparent;
+    border-radius: 5px;
+}
+.navbaar{
+    z-index: 1;
+    width: auto;
+    height: 3.5em;
+    background-color: #348FAA;
+    border-radius: 0px;
+    color: white;
+    font-size: 1.2em;
+    border-bottom: 4px solid greenyellow; 
+}
+.navbaar li{
+    display: block;
+    float: left;
+    list-style: none;
+    padding: 16px 20px;
+    color: white;
+}
+.navbaar li:hover{
+    background-color: cornflowerblue;
+}
+.navbaar a{
+    color: white;
+    text-decoration: none;
+}
+.form-group{
+    margin-bottom: 0px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .navbaar {
+  padding-top: 60px;
+}
+.about{
+    background-color: ghostwhite;
+    padding-top: 35px;
+    width: 100%;
+    height: auto;
+}
+.myself{
+    padding: 25px 25px 25px 25px;
+  }
+.progress{
+    position: relative;
+    background-color: lightgrey;
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%);
+    height: 30px;
+    float: left;
+}
+.progressName{
+    background-color: cadetblue;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.sticky{
+    top: 0px;
+    position: fixed;
+    width: 100%;
+}
+.project{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    background-color: whitesmoke;
+}
+.well{
+    margin: 1em;
+    padding: 16px 20px;
+    overflow: hidden;
+}
+.well span{
+    display: inline-block;
+    float: left;'22'
+    width: auto;
+    padding: 0px 20px;
+    overflow: hidden;
+    margin: 1em;
+}
+.para{
+    text-align: justify;
+    font-size: 1.5em;
+    text-align: center;
+}
+.footer{
+    background-color: mediumpurple;
+    margin-top: 0px;
+
+    padding: 30px 20px;
+    height: auto;
+    width: 100%;
+}
+.topbtn{
+    background-color: lightcoral;
+    padding: 10px;
+    width: 40px;
+    position: relative;
+    left: 50%;
+    top: -40px;
+}
+.footer span{
+    display: inline-block;
+    padding: 10px;
+    width: 50px;
+     font-size: 2.3em;
+    height: 50px;
+    background-color: black;
+}
+.formcontroller{
+    max-width: 500px;
+    margin: auto;
+    background-color: #0E0D0D;
+    border: 1px solid #2e2b2b;
+    color: white;
+    font-weight: bold;
+}
+.footer span:hover{
+    background-color: limegreen;
+    color: white;
+}
+.contact{
+    padding: 16px 20px;
+    padding-top: 25px;
+    background-color: black;
+    margin-bottom: 0px;
+}
+.reserved{
+    position: relative;
+    padding-top: 2.5em;
+    padding-bottom: 0px;
+    top: 90%;
+    color: white;
+    font-size: 1em;
+    
+}
